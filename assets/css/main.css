@@ -8,7 +8,11 @@ footer{
 
 .container1{
     padding: 20px;
-    background-color: #c0ffe0;
+    background-color: #0A092B;
+    color: white;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    text-align: center;
+    letter-spacing: 0.176px;
 }
 
 .container2{
