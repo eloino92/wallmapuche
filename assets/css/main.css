@@ -11,7 +11,21 @@ footer{
     background-color: #c0ffe0;
 }
 
+.container2{
+    padding: 20px;
+    background-color:#44A9D2;
+}
+
 .pkallfu{
     color: blue;
   font-weight: bold;
+}
+
+.heroHeader-title{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 0.14px;
+    color: white;
 }
