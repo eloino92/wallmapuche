@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 56px;
+  }
+  
+  h1 {
+    text-align: center; 
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  .texto-español {
+    font-weight: bold;
+    color: black;
+  }
+  
+  .texto-mapuzugun {
+   color: #80461b;
+    font-style: italic;
+  }
+  
+  .texto-aymara {
+    color: #3f3f3f;
+  }
+
+  .literatura{
+    margin: 5vh 2vw 3vh 2vw;
+  }
