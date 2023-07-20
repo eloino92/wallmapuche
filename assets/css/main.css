@@ -65,3 +65,12 @@ body {
     color: green;
     font-weight: bold; 
 }
+
+.alphabet-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .alphabet-container a {
+    margin: 5px;
+  }
