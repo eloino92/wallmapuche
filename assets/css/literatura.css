@@ -75,3 +75,24 @@ body {
   color: var(--dark-3);
   margin-top: 8px;
 }
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 20px auto;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+caption {
+  caption-side: top;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
