@@ -74,3 +74,12 @@ body {
   .alphabet-container a {
     margin: 5px;
   }
+
+  #Hero {
+    height: 100vh;
+    background: url("../images/portadacontacto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
