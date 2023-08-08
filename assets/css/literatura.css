@@ -112,3 +112,8 @@ th {
     flex-basis: 100%;
   }
 }
+
+.arreglo{
+  padding-top: 56px;
+  margin-top: -56px;
+}
