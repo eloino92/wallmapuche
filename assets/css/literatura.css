@@ -33,49 +33,6 @@ body {
     margin: 5vh 2vw 3vh 2vw;
   }
 
-  /*===========================
-  card-01 css
-===========================*/
-.single-card {
-  box-shadow: var(--shadow-1);
-  border-radius: 8px;
-  overflow: hidden;
-  margin-top: 30px;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-}
-.single-card:hover {
-  box-shadow: var(--shadow-4);
-}
-.single-card .card-image img {
-  width: 100%;
-  height: 100%;
-}
-.single-card .card-content {
-  padding: 16px;
-}
-.single-card .card-content .card-title {
-  margin-bottom: 0;
-}
-.single-card .card-content .card-title a {
-  color: var(--black);
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-}
-.single-card .card-content .card-title a:hover {
-  color: var(--primary);
-}
-.single-card .card-content .text {
-  color: var(--dark-3);
-  margin-top: 8px;
-}
-
 table {
   border-collapse: collapse;
   width: 50%;
@@ -116,4 +73,50 @@ th {
 .arreglo{
   padding-top: 56px;
   margin-top: -56px;
+}
+
+.photo-gallery {
+  color:#313437;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+.photo-gallery p {
+  color:#7d8285;
+}
+
+.photo-gallery h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .photo-gallery h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.photo-gallery .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 40px;
+}
+
+.photo-gallery .intro p {
+  margin-bottom:0;
+}
+
+.photo-gallery .photos {
+  padding-bottom:20px;
+}
+
+.photo-gallery .item {
+  padding-bottom:30px;
+}
+
+.img-fluid{
+  border-radius: 8px;
 }
