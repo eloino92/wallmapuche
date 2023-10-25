@@ -99,3 +99,7 @@ body {
   border-left: var(--mdb-note-border-width) solid;
   border-radius: var(--mdb-note-border-radius)
 }
+
+.img-fluid{
+    border-radius: 8px;
+  }
